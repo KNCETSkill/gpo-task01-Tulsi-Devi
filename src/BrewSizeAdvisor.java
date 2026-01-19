@@ -11,7 +11,7 @@ public class BrewSizeAdvisor {
             System.out.println("Large");
         }else if(150<v<400){
             System.out.println("Medium");
-        }else(v<=150){
+        }else{
             System.out.println("Small");
         }
 
