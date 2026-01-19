@@ -9,7 +9,7 @@ public class BrewSizeAdvisor {
         int v = sc.nextInt();
         if(v>=400){
             System.out.println("Large");
-        }else if(150<v<400){
+        }else if(150<v && v<400){
             System.out.println("Medium");
         }else{
             System.out.println("Small");
