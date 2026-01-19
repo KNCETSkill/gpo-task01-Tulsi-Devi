@@ -6,7 +6,14 @@ public class BrewSizeAdvisor {
 
         Scanner sc = new Scanner(System.in);
 
-        int volume = sc.nextInt();
+        int v = sc.nextInt();
+        if(v>=400){
+            System.out.println("Large");
+        }else if(150<v<400){
+            System.out.println("Medium");
+        }else(v<=150){
+            System.out.println("Small");
+        }
 
         // TODO:
         // Print "Small", "Medium", or "Large"
